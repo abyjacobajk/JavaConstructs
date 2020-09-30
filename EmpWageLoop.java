@@ -29,7 +29,7 @@ public class EmpWageLoop {
                       	      totalHours=0;
              		 }
 
-			int WORK_HOURS=totalHours;
+			WORK_HOURS +=totalHours;
 	     	}
 		System.out.println("hour -"+WORK_HOURS*totaldays);
                 System.out.println("wage - "+WORK_HOURS*EMPLOYEE_RATE_PER_HOUR*totalDays);
